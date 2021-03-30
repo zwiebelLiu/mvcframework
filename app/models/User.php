@@ -19,12 +19,7 @@
         //var_dump($result);
     }
 
-    public function find($id)
-    {
-        $this->db->query("select * from users where user_id=$id");
-        $result=$this->db->single();
-        return $result;
-    }
+
 
 
 }

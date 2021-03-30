@@ -13,7 +13,7 @@ class Pages extends Controller
 
     public function index()
     {
-        $users=$this->model('User')->find(1);
+        $users=$this->model('User')->getUsers();
 
         $data=[
             'title'=>'Home page',
