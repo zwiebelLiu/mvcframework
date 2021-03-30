@@ -1,13 +1,14 @@
 <?php
-var_dump($data);
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>pagee index</title>
-</head>
-<body>
+    require APPROOT.'/views/includes/header.php';
 
-</body>
-</html>
+?>
+<div class="" id="section-landing">
+    <?php
+    require APPROOT.'/views/includes/navigation.php';
+    ?>
+    <div class="wrapper-landing">
+
+    <h1>PHP Profi Weg</h1>
+    <h2>Fighting </h2>
+    </div>
+</div>

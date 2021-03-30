@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c630a0-fc36-4cfd-970a-e67a5c320138" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/Users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/session_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/includes/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/includes/navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/app/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libraries/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/libraries/Core.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libraries/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/libraries/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/require.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/require.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qRjrUakva8CEj6alF6VH6YnkwP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617049495091</updated>
       <workItem from="1617049496381" duration="9720000" />
-      <workItem from="1617089205881" duration="4655000" />
+      <workItem from="1617089205881" duration="20599000" />
     </task>
     <servers />
   </component>
@@ -98,10 +108,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617090191668" />
-    <state x="550" y="119" key="NewPhpClassDialog" timestamp="1617089606655">
+    <state x="550" y="119" key="NewPhpClassDialog" timestamp="1617134513926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="550" y="119" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1617089606655" />
+    <state x="550" y="119" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1617134513926" />
+    <state x="604" y="332" key="NewPhpFileDialog" timestamp="1617142688661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="332" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1617142688661" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1617142268374">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1617142268374" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -114,6 +132,15 @@
             <option name="methodName" value="__construct" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/app/controllers/Users.php</url>
+          <line>84</line>
+          <properties>
+            <option name="className" value="\Users" />
+            <option name="methodName" value="register" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

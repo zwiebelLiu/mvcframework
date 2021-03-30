@@ -9,7 +9,7 @@ define('DB_NAME','mvc');
 define('APPROOT',dirname(dirname(__FILE__)));
 
 //URL ROOT
-define('URLROOT','localhost/mvcframework');
+define('URLROOT','/mvcframework');
 
 //Sitename
 define('SITENAME','MVC Framwork');
