@@ -8,6 +8,10 @@ class core{
     public function __construct()
     {
         $url=$this->getUrl();
+        if(!$url)
+        {
+            return 0;
+        }
 
         //Look in contrlloers for first value,ucwordes will capitalize first.
         if(file_exists('../app/controllers/'.ucwords($url[0]).'.php'))
@@ -50,6 +54,7 @@ class core{
             $url=filter_var($url,FILTER_SANITIZE_URL);
             //breaking it into an array
             $url=explode('/',$url);
+            //var_dump($url);
             return $url;
         }
 
