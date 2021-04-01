@@ -10,7 +10,7 @@
             <a href="<?php echo URLROOT;?>/pages/project">Project</a>
         </li>
         <li>
-            <a href="<?php echo URLROOT;?>/pages/blog">Blog</a>
+            <a href="<?php echo URLROOT;?>/posts/index">Blog</a>
         </li>
         <li>
             <a href="<?php echo URLROOT;?>/pages/contact">Contact</a>
